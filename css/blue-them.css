@@ -1,0 +1,21 @@
+.option-box .color-option,
+.testimonials .carousel-item .carousel-card .image {
+    border: 2px solid #176be4;
+}
+
+.option-box .gear-check,
+.testimonials .carousel-indicators button,
+.navbar .nav-item .dropdown-menu li a:hover{
+    background-color: #176be4;
+}
+
+.about h1 span,
+.footer h3,
+.navbar .nav-item .nav-link.active ,
+.footer .copy span {
+    color: #176be4;
+}
+
+.navbar .nav-item .dropdown-menu{
+    border-top: 3px solid #176be4;
+}

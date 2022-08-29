@@ -1,0 +1,29 @@
+.our-team {
+    padding-top: 60px;
+    background-image: url('../images/bgTeam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    color: #FFF;
+}
+.our-team .person {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 14px 15px rgba(0, 0, 0, 0.4);
+}
+.our-team .person h3 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.our-team .person p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 10px;
+}

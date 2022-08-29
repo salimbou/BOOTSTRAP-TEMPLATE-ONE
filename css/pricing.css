@@ -1,0 +1,47 @@
+.price-table {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #EEE;
+}
+.price-table .h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.price-table .price-box {
+    padding-top: 15px;
+    background-color: #FFF;
+    border-radius: 6px;
+    margin-bottom: 35px;
+}
+.price-table .price-box h2 {
+    margin:15px 0 15px 0;
+}
+.price-table .price-box p{
+    font-size: 25px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+    
+}
+.price-table .price-box:hover p{
+    transform: scale(1.2) rotateY(360deg);
+}
+.price-table .price-box ul{
+    line-height: 250%;
+    font-size: 18px;
+}
+.price-table .price-box a {
+    margin-bottom: 25px;
+}
+.price-table .price-box a i{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+}

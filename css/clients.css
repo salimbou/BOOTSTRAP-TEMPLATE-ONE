@@ -1,0 +1,20 @@
+.clients {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #EEE;
+}
+.clients ul {
+    
+    margin-top: 25px;
+}
+.clients ul div {
+    margin-right: 25px;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 25px;
+}
+.clients ul li img {
+    max-width: 100%;
+    object-fit: cover;
+}

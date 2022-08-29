@@ -1,0 +1,41 @@
+.features {
+    background-color: #eee;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.features .feat {
+    margin-top: 60px;
+    box-shadow: 0 14px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 6px;
+}
+.features .feat:hover {
+    transform: translateY(-3px);
+}
+.features .feat h4 {
+    margin-top: 25px;
+    
+}
+.features .feat p{
+    line-height: 1.6;
+    padding: 25px;
+}
+
+.features .feat span {
+    margin-top: -60px;
+    width:64px;
+    height: 64px;
+    background-color: #00aeff;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features .feat i {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: bold;
+}
